@@ -1,0 +1,822 @@
+﻿Log file open, 10/23/16 16:48:36
+LogInit:Display: Running engine for game: WickedWinterWars
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-390504673) SRandInit(-390504673).
+LogTaskGraph: Started task graph with 5 named threads and 16 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.213612
+LogPluginManager: Loaded Plugin Paper2D, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3142249
+LogInit: Engine Version: 4.13.1-3142249+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3142249
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: L:/UnrealEngine/UnrealEngine/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.23-14.48.36:378][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.23-14.48.36:378][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.23-14.48.36:435][  0]LogInit: Computer: TEST-THINK
+[2016.10.23-14.48.36:435][  0]LogInit: User: test
+[2016.10.23-14.48.36:435][  0]LogInit: CPU Page size=65536, Cores=12
+[2016.10.23-14.48.36:435][  0]LogInit: High frequency timer resolution =2.604264 MHz
+[2016.10.23-14.48.36:435][  0]LogMemory: Memory total: Physical=64.0GB (64GB approx)
+[2016.10.23-14.48.36:435][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.23-14.48.36:435][  0]LogMemory: Process Physical Memory: 259.25 MB used, 259.25 MB peak
+[2016.10.23-14.48.36:435][  0]LogMemory: Process Virtual Memory: 260.46 MB used, 260.46 MB peak
+[2016.10.23-14.48.36:435][  0]LogMemory: Physical Memory: 7654.78 MB used, 65527.23 MB total
+[2016.10.23-14.48.36:435][  0]LogMemory: Virtual Memory: 632.72 MB used, 134217728.00 MB total
+[2016.10.23-14.48.36:688][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.10.23-14.48.39:261][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.23-14.48.39:301][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2016.10.23-14.48.39:301][  0]LogD3D11RHI:       2016/0/32763 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.23-14.48.39:304][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.23-14.48.39:304][  0]LogD3D11RHI:       0/0/32763 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.23-14.48.39:304][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.23-14.48.39:313][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.23-14.48.39:313][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.23-14.48.39:313][  0]LogWindows: EnumDisplayDevices:
+[2016.10.23-14.48.39:313][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2016.10.23-14.48.39:313][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.10.23-14.48.39:314][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.10.23-14.48.39:314][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.10.23-14.48.39:314][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.10.23-14.48.39:314][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2016.10.23-14.48.39:314][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2016.10.23-14.48.39:314][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2016.10.23-14.48.39:314][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.23-14.48.39:336][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.23-14.48.39:350][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.10.23-14.48.39:351][  0]LogShaderCompilers: Guid format shader working directory is -75 characters bigger than the processId version (../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Intermediate/Shaders/WorkingDirectory/12448/).
+[2016.10.23-14.48.39:351][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/test/AppData/Local/Temp/UnrealShaderWorkingDir/6F7916CF474B6E5740EE3DA769B32883/'.
+[2016.10.23-14.48.39:351][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.23-14.48.42:028][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.23-14.48.42:042][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.23-14.48.42:057][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.23-14.48.42:071][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.23-14.48.42:093][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.23-14.48.42:108][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.23-14.48.42:121][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.23-14.48.42:134][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.23-14.48.42:147][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.23-14.48.42:160][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.23-14.48.42:186][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.23-14.48.42:186][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.23-14.48.42:202][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.23-14.48.42:203][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.23-14.48.42:259][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.23-14.48.42:276][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.23-14.48.42:292][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.10.23-14.48.42:308][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.23-14.48.42:324][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.23-14.48.42:341][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.23-14.48.42:341][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.23-14.48.42:692][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.23-14.48.42:784][  0]LogDerivedDataCache: Loaded boot cache 0.09s 63MB C:/Users/test/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.23-14.48.42:784][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/test/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.10.23-14.48.42:784][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.23-14.48.42:784][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.23-14.48.42:784][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.23-14.48.42:784][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.23-14.48.42:815][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.23-14.48.42:828][  0]LogDerivedDataCache: Using Local data cache path C:/Users/test/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.23-14.48.45:740][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.23-14.48.45:744][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.23-14.48.45:870][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.23-14.48.45:870][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.23-14.48.45:870][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.23-14.48.46:115][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.10.23-14.48.46:897][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: wickedwinterwars, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 3524415569
+[2016.10.23-14.48.46:950][  0]LogAssetRegistry: FAssetRegistry took 0.0226 seconds to start up
+[2016.10.23-14.48.47:066][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.113626 seconds
+[2016.10.23-14.48.47:073][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.10.23-14.48.47:073][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2016.10.23-14.48.47:073][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.23-14.48.47:078][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.23-14.48.47:506][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.23-14.48.47:506][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.23-14.48.49:245][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.10.23-14.48.49:312][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.23-14.48.49:659][  0]SourceControl: Info Source control is disabled
+[2016.10.23-14.48.49:726][  0]SourceControl: Info Source control is disabled
+[2016.10.23-14.48.49:735][  0]SourceControl: Info Source control is disabled
+[2016.10.23-14.48.49:743][  0]SourceControl: Info Source control is disabled
+[2016.10.23-14.48.50:084][  0]LogEngine: Initializing Engine...
+[2016.10.23-14.48.50:084][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.10.23-14.48.50:269][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.10.23-14.48.50:284][  0]LogInit: XAudio2 using 'Lautsprecher (SB Audigy)' : 4 channels at 48 kHz using 24 bits per sample (channel mask 0x33)
+[2016.10.23-14.48.50:307][  0]LogInit: FAudioDevice initialized.
+[2016.10.23-14.48.50:356][  0]LogDerivedDataCache: Saved boot cache 0.05s 63MB C:/Users/test/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.23-14.48.50:372][  0]LogInit: Texture streaming: Enabled
+[2016.10.23-14.48.50:401][  0]LogInit: Transaction tracking system initialized
+[2016.10.23-14.48.50:421][  0]BlueprintLog: New page: Editor Load
+[2016.10.23-14.48.50:706][  0]LocalizationService: Info Localization service is disabled
+[2016.10.23-14.48.50:892][  0]LogConsoleResponse:Display: 
+[2016.10.23-14.48.51:179][  0]LogFileCache: Scanning file cache for directory 'L:/UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/' took 0.02s
+[2016.10.23-14.48.51:179][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.10.23-14.48.51:179][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.23-14.48.51:380][  0]SourceControl: Info Source control is disabled
+[2016.10.23-14.48.51:453][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 L:/UnrealEngine/UnrealEngine/Epic Games/4.13/FeaturePacks/StarterContent.upack)
+[2016.10.23-14.48.51:520][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.10.23-14.48.51:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.10.23-14.48.51:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.10.23-14.48.51:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.10.23-14.48.51:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.10.23-14.48.51:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.10.23-14.48.51:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.10.23-14.48.51:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.10.23-14.48.51:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.10.23-14.48.51:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.10.23-14.48.51:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.10.23-14.48.51:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.10.23-14.48.51:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.10.23-14.48.51:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.10.23-14.48.51:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.10.23-14.48.52:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.10.23-14.48.52:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.10.23-14.48.52:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.10.23-14.48.52:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Fire01.uasset"
+[2016.10.23-14.48.52:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.10.23-14.48.52:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.10.23-14.48.52:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.10.23-14.48.52:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Light01.uasset"
+[2016.10.23-14.48.52:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.10.23-14.48.52:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Light02.uasset"
+[2016.10.23-14.48.52:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.10.23-14.48.52:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.10.23-14.48.52:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.10.23-14.48.52:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.10.23-14.48.53:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.10.23-14.48.54:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.10.23-14.48.54:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.10.23-14.48.55:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.10.23-14.48.55:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.10.23-14.48.55:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Steam01.uasset"
+[2016.10.23-14.48.55:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.10.23-14.48.56:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.10.23-14.48.56:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.10.23-14.48.56:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.10.23-14.48.56:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.10.23-14.48.56:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.10.23-14.48.56:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.10.23-14.48.56:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.10.23-14.48.56:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.10.23-14.48.56:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.10.23-14.48.56:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.10.23-14.48.56:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.10.23-14.48.56:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.10.23-14.48.56:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.10.23-14.48.56:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.10.23-14.48.56:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.10.23-14.48.56:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.10.23-14.49.01:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.10.23-14.49.01:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.10.23-14.49.01:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.10.23-14.49.01:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Maps/StarterMap.umap"
+[2016.10.23-14.49.01:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.10.23-14.49.01:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.10.23-14.49.01:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.10.23-14.49.01:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.10.23-14.49.02:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.10.23-14.49.02:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.10.23-14.49.02:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.10.23-14.49.02:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.10.23-14.49.02:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.10.23-14.49.02:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.10.23-14.49.02:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.10.23-14.49.02:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.10.23-14.49.02:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.10.23-14.49.02:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.10.23-14.49.02:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.10.23-14.49.02:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.10.23-14.49.02:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.10.23-14.49.02:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.10.23-14.49.02:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.10.23-14.49.02:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.10.23-14.49.02:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.10.23-14.49.02:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.10.23-14.49.02:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.10.23-14.49.02:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.10.23-14.49.02:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.10.23-14.49.02:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.10.23-14.49.02:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.10.23-14.49.02:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.10.23-14.49.03:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.10.23-14.49.03:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.10.23-14.49.03:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.10.23-14.49.03:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.10.23-14.49.03:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.10.23-14.49.03:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.10.23-14.49.03:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.10.23-14.49.03:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.10.23-14.49.03:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.10.23-14.49.03:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.10.23-14.49.03:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.10.23-14.49.03:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.10.23-14.49.03:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.10.23-14.49.03:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.10.23-14.49.03:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.10.23-14.49.03:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.10.23-14.49.03:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.10.23-14.49.03:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.10.23-14.49.03:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.10.23-14.49.03:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.10.23-14.49.03:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.10.23-14.49.03:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.10.23-14.49.03:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.10.23-14.49.03:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.10.23-14.49.04:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.10.23-14.49.04:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.10.23-14.49.04:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.10.23-14.49.04:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.10.23-14.49.04:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.10.23-14.49.04:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.10.23-14.49.04:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.10.23-14.49.04:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.10.23-14.49.04:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.10.23-14.49.04:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.10.23-14.49.04:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.10.23-14.49.04:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.10.23-14.49.04:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_Door.uasset"
+[2016.10.23-14.49.04:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.10.23-14.49.04:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.10.23-14.49.04:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.10.23-14.49.04:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.10.23-14.49.04:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.10.23-14.49.04:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.10.23-14.49.04:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.10.23-14.49.05:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.10.23-14.49.05:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.10.23-14.49.05:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.10.23-14.49.05:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.10.23-14.49.05:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.10.23-14.49.05:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.10.23-14.49.05:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.10.23-14.49.05:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.10.23-14.49.05:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.10.23-14.49.05:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.10.23-14.49.05:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.10.23-14.49.05:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.10.23-14.49.05:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.10.23-14.49.05:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.10.23-14.49.05:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.10.23-14.49.05:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.10.23-14.49.05:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.10.23-14.49.05:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.10.23-14.49.05:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.10.23-14.49.05:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.10.23-14.49.05:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.10.23-14.49.05:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.10.23-14.49.06:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.10.23-14.49.06:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.10.23-14.49.06:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.10.23-14.49.06:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.10.23-14.49.06:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.10.23-14.49.06:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.10.23-14.49.06:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.10.23-14.49.06:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.10.23-14.49.06:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.10.23-14.49.06:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.10.23-14.49.06:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.10.23-14.49.06:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.10.23-14.49.06:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.10.23-14.49.06:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.10.23-14.49.06:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.10.23-14.49.06:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.10.23-14.49.07:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.10.23-14.49.07:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.10.23-14.49.07:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.10.23-14.49.08:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.10.23-14.49.08:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.10.23-14.49.08:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.10.23-14.49.08:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.10.23-14.49.09:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.10.23-14.49.09:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.10.23-14.49.10:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.10.23-14.49.10:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.10.23-14.49.10:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.10.23-14.49.10:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.10.23-14.49.10:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.10.23-14.49.10:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.10.23-14.49.10:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.10.23-14.49.11:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.10.23-14.49.11:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.10.23-14.49.11:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.10.23-14.49.11:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.10.23-14.49.11:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.10.23-14.49.11:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.10.23-14.49.12:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.10.23-14.49.12:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.10.23-14.49.12:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.10.23-14.49.12:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.10.23-14.49.13:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.10.23-14.49.13:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.10.23-14.49.13:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.10.23-14.49.13:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.10.23-14.49.14:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.10.23-14.49.14:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.10.23-14.49.15:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.10.23-14.49.15:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.10.23-14.49.16:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.10.23-14.49.16:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.10.23-14.49.16:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.10.23-14.49.16:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.10.23-14.49.17:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.10.23-14.49.17:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.10.23-14.49.17:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.10.23-14.49.17:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.10.23-14.49.17:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.10.23-14.49.17:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.10.23-14.49.18:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.10.23-14.49.18:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.10.23-14.49.18:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.10.23-14.49.19:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.10.23-14.49.19:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.10.23-14.49.20:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.10.23-14.49.20:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.10.23-14.49.21:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.10.23-14.49.22:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.10.23-14.49.22:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.10.23-14.49.22:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.10.23-14.49.23:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.10.23-14.49.24:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.10.23-14.49.24:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.10.23-14.49.25:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.10.23-14.49.25:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.10.23-14.49.26:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.10.23-14.49.26:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.10.23-14.49.27:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.10.23-14.49.27:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.10.23-14.49.28:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.10.23-14.49.28:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.10.23-14.49.29:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.10.23-14.49.29:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.10.23-14.49.29:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.10.23-14.49.30:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.10.23-14.49.30:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.10.23-14.49.31:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.10.23-14.49.32:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.10.23-14.49.32:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.10.23-14.49.32:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.10.23-14.49.32:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.10.23-14.49.33:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.10.23-14.49.33:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.10.23-14.49.33:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.10.23-14.49.33:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.10.23-14.49.33:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.10.23-14.49.33:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.10.23-14.49.33:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.10.23-14.49.33:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.10.23-14.49.33:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.10.23-14.49.34:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.10.23-14.49.34:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.10.23-14.49.34:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.10.23-14.49.34:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.10.23-14.49.34:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.10.23-14.49.34:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.10.23-14.49.34:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.10.23-14.49.34:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.10.23-14.49.35:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.10.23-14.49.35:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.10.23-14.49.35:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.10.23-14.49.36:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.10.23-14.49.36:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.10.23-14.49.37:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.10.23-14.49.37:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.10.23-14.49.37:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.10.23-14.49.37:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.10.23-14.49.38:260][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.10.23-14.49.38:663][  0]LogSavePackage: Save=78.44ms
+[2016.10.23-14.49.38:663][  0]LogSavePackage: Moving '../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Saved/Floor_400x400E48D818F49F6C682BA8970B967A92D9B.tmp' to '../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.10.23-14.49.38:731][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.10.23-14.49.38:731][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.10.23-14.49.38:753][  0]LightingResults: New page: Lighting Build
+[2016.10.23-14.49.38:755][  0]MapCheck: New page: Map Check
+[2016.10.23-14.49.38:755][  0]LightingResults: New page: Lighting Build
+[2016.10.23-14.49.39:633][  0]LogTexture:Display: Building textures: T_Chair_M (AutoDXT)
+[2016.10.23-14.49.40:546][  0]LogTexture:Display: Building textures: T_Chair_N (BC5)
+[2016.10.23-14.49.41:022][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.10.23-14.49.41:065][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.10.23-14.49.41:077][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.10.23-14.49.41:105][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.10.23-14.49.41:116][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2016.10.23-14.49.41:125][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2016.10.23-14.49.41:553][  0]LogTexture:Display: Building textures: T_MacroVariation (AutoDXT)
+[2016.10.23-14.49.43:331][  0]LogTexture:Display: Building textures: T_Metal_Copper_D (AutoDXT)
+[2016.10.23-14.49.44:989][  0]LogTexture:Display: Building textures: T_Metal_Gold_N (BC5)
+[2016.10.23-14.49.45:643][  0]LogTexture:Display: Building textures: T_Metal_Aluminum_D (AutoDXT)
+[2016.10.23-14.49.47:318][  0]LogTexture:Display: Building textures: T_TableRound_N (BC5)
+[2016.10.23-14.49.47:813][  0]LogTexture:Display: Building textures: T_TableRound_M (DXT1)
+[2016.10.23-14.49.48:537][  0]LogTexture:Display: Building textures: T_Statue_N (BC5)
+[2016.10.23-14.49.48:741][  0]LogTexture:Display: Building textures: T_Statue_M (AutoDXT)
+[2016.10.23-14.49.49:719][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.10.23-14.49.49:971][  0]LogTexture:Display: Building textures: S_AudioComponent_AutoActivate (BGRA8)
+[2016.10.23-14.49.49:982][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.23-14.49.50:004][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.23-14.49.50:384][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 379.247ms to complete.
+[2016.10.23-14.49.50:384][  0]LogFileHelpers: Loading map 'Minimal_Default' took 11.640
+[2016.10.23-14.49.51:341][  0]LogCollectionManager: Loaded 0 collections in 0.001244 seconds
+[2016.10.23-14.49.51:750][  0]LogFileCache: Scanning file cache for directory 'L:/UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Saved/Collections/' took 0.02s
+[2016.10.23-14.49.51:750][  0]LogFileCache: Scanning file cache for directory 'L:/UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/Developers/test/Collections/' took 0.02s
+[2016.10.23-14.49.51:750][  0]LogFileCache: Scanning file cache for directory 'L:/UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/Collections/' took 0.01s
+[2016.10.23-14.49.51:750][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.10.23-14.49.51:824][  0]LogContentBrowser: Native class hierarchy populated in 0.0437 seconds. Added 2142 classes and 417 folders.
+[2016.10.23-14.49.51:873][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.23-14.49.51:873][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.23-14.49.51:882][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.10.23-14.49.51:904][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.10.23-14.49.52:843][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.10.23-14.49.53:462][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.23-14.49.53:595][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.23-14.49.53:640][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.10.23-14.49.53:640][  0]LogLoad: (Engine Initialization) Total time: 81.26 seconds
+[2016.10.23-14.49.53:640][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2016.10.23-14.49.53:640][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.23-14.49.53:640][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.23-14.49.53:980][  0]LogOcInput: OculusInput pre-init called
+[2016.10.23-14.50.03:077][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.23-14.50.03:203][  0]LogTexture:Display: Building textures: icon_tab_Levels_40x (BGRA8)
+[2016.10.23-14.50.03:404][  0]LogTexture:Display: Building textures: LevelGrid1DStripes (BGRA8)
+[2016.10.23-14.50.03:716][  0]LogRenderer: Reallocating scene render targets to support 972x684 (Frame:3).
+[2016.10.23-14.50.04:433][  3]LogAssetRegistry: Asset discovery search completed in 77.5054 seconds
+[2016.10.23-14.50.04:433][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.23-14.50.04:433][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000127 seconds (updated 0 objects)
+[2016.10.23-14.50.21:809][705]LogRenderer: Reallocating scene render targets to support 976x684 (Frame:1739).
+[2016.10.23-14.50.21:855][706]LogRenderer: Reallocating scene render targets to support 1004x684 (Frame:1741).
+[2016.10.23-14.50.21:907][707]LogRenderer: Reallocating scene render targets to support 1016x684 (Frame:1743).
+[2016.10.23-14.50.21:956][708]LogRenderer: Reallocating scene render targets to support 1032x684 (Frame:1745).
+[2016.10.23-14.50.22:008][709]LogRenderer: Reallocating scene render targets to support 1040x684 (Frame:1747).
+[2016.10.23-14.50.22:075][710]LogRenderer: Reallocating scene render targets to support 1044x684 (Frame:1749).
+[2016.10.23-14.50.22:271][720]LogRenderer: Reallocating scene render targets to support 1048x684 (Frame:1755).
+[2016.10.23-15.00.16:372][630]Cmd: QUIT_EDITOR
+[2016.10.23-15.00.16:461][630]LogExit: Preparing to exit.
+[2016.10.23-15.00.16:786][630]LogDirectoryWatcher: A directory notification for 'L:/UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/' was aborted.
+[2016.10.23-15.00.16:944][630]LogExit: Editor shut down
+[2016.10.23-15.00.16:944][630]LogExit: Transaction tracking system shut down
+[2016.10.23-15.00.17:102][630]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.23-15.00.17:102][630]LogExit: Object subsystem successfully closed.
+[2016.10.23-15.00.17:126][630]LogD3D11RHI: Shutdown
+[2016.10.23-15.00.17:126][630]LogD3D11RHI: CleanupD3DDevice
+[2016.10.23-15.00.17:210][630]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.23-15.00.17:232][630]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
+[2016.10.23-15.00.17:232][630]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
+[2016.10.23-15.00.17:232][630]LogModuleManager: Shutting down and abandoning module WidgetCarousel (231)
+[2016.10.23-15.00.17:232][630]LogModuleManager: Shutting down and abandoning module AddContentDialog (230)
+[2016.10.23-15.00.17:232][630]LogDirectoryWatcher: A directory notification for 'L:/UnrealEngine/UnrealEngine/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.10.23-15.00.17:234][630]LogModuleManager: Shutting down and abandoning module GameplayTags (229)
+[2016.10.23-15.00.17:234][630]LogModuleManager: Shutting down and abandoning module EditorWidgets (228)
+[2016.10.23-15.00.17:234][630]LogModuleManager: Shutting down and abandoning module CollectionManager (227)
+[2016.10.23-15.00.17:234][630]LogDirectoryWatcher: A directory notification for 'L:/UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/Collections/' was aborted.
+[2016.10.23-15.00.17:240][630]LogDirectoryWatcher: A directory notification for 'L:/UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/Developers/test/Collections/' was aborted.
+[2016.10.23-15.00.17:246][630]LogDirectoryWatcher: A directory notification for 'L:/UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Saved/Collections/' was aborted.
+[2016.10.23-15.00.17:251][630]LogModuleManager: Shutting down and abandoning module SceneOutliner (226)
+[2016.10.23-15.00.17:251][630]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
+[2016.10.23-15.00.17:251][630]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
+[2016.10.23-15.00.17:251][630]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module BspMode (218)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module Media (206)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module SessionServices (201)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
+[2016.10.23-15.00.17:252][630]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
+[2016.10.23-15.00.17:253][630]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
+[2016.10.23-15.00.17:253][630]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
+[2016.10.23-15.00.17:253][630]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
+[2016.10.23-15.00.17:253][630]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
+[2016.10.23-15.00.17:253][630]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
+[2016.10.23-15.00.18:144][630]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module MergeActors (187)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module SizeMap (186)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module TreeMap (185)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module XmlParser (177)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module Blutility (176)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
+[2016.10.23-15.00.18:145][630]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
+[2016.10.23-15.00.18:146][630]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
+[2016.10.23-15.00.18:189][630]LogModuleManager: Shutting down and abandoning module AutomationController (165)
+[2016.10.23-15.00.18:189][630]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
+[2016.10.23-15.00.18:189][630]LogModuleManager: Shutting down and abandoning module Layers (163)
+[2016.10.23-15.00.18:189][630]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
+[2016.10.23-15.00.18:189][630]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
+[2016.10.23-15.00.18:189][630]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
+[2016.10.23-15.00.18:189][630]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
+[2016.10.23-15.00.18:189][630]LogModuleManager: Shutting down and abandoning module Persona (158)
+[2016.10.23-15.00.18:189][630]LogModuleManager: Shutting down and abandoning module Kismet (157)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module Toolbox (154)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module OutputLog (151)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module GammaUI (150)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module Documentation (149)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module Niagara (148)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module PortalServices (145)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module AIModule (140)
+[2016.10.23-15.00.18:190][630]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module SteamVR (135)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2016.10.23-15.00.18:257][630]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2016.10.23-15.00.18:258][630]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.10.23-15.00.18:259][630]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.10.23-15.00.18:259][630]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.10.23-15.00.18:260][630]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2016.10.23-15.00.18:260][630]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2016.10.23-15.00.18:261][630]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2016.10.23-15.00.18:361][630]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.10.23-15.00.18:462][630]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.10.23-15.00.18:463][630]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.10.23-15.00.18:463][630]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.10.23-15.00.18:463][630]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.10.23-15.00.18:465][630]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.10.23-15.00.18:465][630]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.10.23-15.00.18:465][630]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.10.23-15.00.18:465][630]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.10.23-15.00.18:465][630]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.10.23-15.00.18:465][630]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.10.23-15.00.18:465][630]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.10.23-15.00.18:465][630]LogDirectoryWatcher: A directory notification for '../../../../../../../UnrealEngineProjekte/GIT_Hub_WickedWinterWars/WickedWinterWars/UnrealProjectFiles/WickedWinterWars/Content/' was aborted.
+[2016.10.23-15.00.18:469][630]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.10.23-15.00.18:470][630]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.10.23-15.00.20:326][630]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.10.23-15.00.20:326][630]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.10.23-15.00.20:326][630]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.10.23-15.00.20:326][630]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.10.23-15.00.20:378][630]LogDerivedDataCache: Shutdown
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (38)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (37)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (36)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (35)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (34)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (33)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (32)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (31)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.10.23-15.00.20:378][630]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.10.23-15.00.20:379][630]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.10.23-15.00.20:379][630]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.10.23-15.00.20:379][630]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.10.23-15.00.20:379][630]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.10.23-15.00.20:379][630]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.10.23-15.00.20:379][630]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.10.23-15.00.20:379][630]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.10.23-15.00.20:379][630]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.10.23-15.00.20:379][630]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.10.23-15.00.20:379][630]LogOnline:Display: Unloading online subsystem: NULL
+[2016.10.23-15.00.20:379][630]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.10.23-15.00.20:379][630]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.10.23-15.00.20:379][630]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1B5194B6-4FFE-BD1D-E7C9-2FBDC21F8DD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=78421a9a473391dc332c4cb74c5624f6%7C15cf891b8b4342b1b4f0cf1c3d787f2c%7C21498b93-ad65-444d-9ff7-87c306d0727b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.10.23-15.00.20:406][630]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.10.23-15.00.20:406][630]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.23-15.00.20:406][630]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.23-15.00.20:406][630]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.23-15.00.20:406][630]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.23-15.00.20:407][630]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.23-15.00.20:407][630]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.23-15.00.20:407][630]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.23-15.00.20:407][630]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.23-15.00.20:407][630]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.23-15.00.20:407][630]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.23-15.00.20:407][630]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.23-15.00.20:407][630]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.23-15.00.20:407][630]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.23-15.00.20:407][630]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.23-15.00.20:411][630]LogExit: Exiting.
+[2016.10.23-15.00.20:442][630]Log file closed, 10/23/16 17:00:20
